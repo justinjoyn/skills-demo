@@ -1,5 +1,5 @@
 //ACTIONS
-export const SAVE_NAME = 'employee_app/name/SAVE_NAME';
+export const SAVE_NAME = 'skills/name/SAVE_NAME';
 
 //REDUCER
 export default function reducer(state = { name: '' }, action = {}) {

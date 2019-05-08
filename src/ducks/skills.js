@@ -1,7 +1,7 @@
 import _ from 'lodash';
 
 //ACTIONS
-export const ADD_SKILL = 'employee_app/skills/ADD_SKILL';
+export const ADD_SKILL = 'skills/skills/ADD_SKILL';
 
 //REDUCER
 export default function reducer(state = { skills: [] }, action = {}) {
