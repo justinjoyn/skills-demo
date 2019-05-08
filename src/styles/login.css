@@ -1,0 +1,68 @@
+.LoginContainer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 50px;
+    background-image: linear-gradient(to bottom right, #e0e0e0, #ffffff);
+}
+
+.LoginCard {
+    background-color: #8a56ac;
+    border-radius: 30px;
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    padding: 30px;
+    box-shadow: #333 1px 1px 100px;
+}
+
+.Title {
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600;
+    font-size: 28px;
+    margin-top: 20px;
+    display: inline-block;
+    line-height: 36px;
+}
+
+.NameInput {
+    border: none;
+    background-color: transparent;
+    border-bottom: #fff 1px solid;
+    display: inline-block;
+    width: 100%;
+    margin-top: 100px;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600;
+    font-size: 36px;
+    outline: none;
+}
+
+.NextButton {
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600;
+    font-size: 20px;
+    color: #8a56ac;
+    background-color: #fff;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 210px;
+    border: 1px #fff solid;
+    transition: all 300ms ease;
+    cursor: pointer;
+    outline: none;
+}
+
+.NextButton:hover {
+    background-color: #8a56ac;
+    color: #fff;
+    border: 1px #fff solid;
+}
